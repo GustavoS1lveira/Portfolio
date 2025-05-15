@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo da Frota</title>
+    <link rel="stylesheet" href="css/frotas.css">
+</head>
+<body>
+    <div class="calculadorafrotas">
+    <h1>Autonomia dos veículos</h1>
+    <div class="container">
+        <p>Me diga a marca do seu carro</p>
+        <input type="text" id="marca"/>
+        <button onclick="mostrarModelos()">Buscar modelos</button>
+        <br><br>
+        <label for="categoria">Escolha a categoria do automovel:</label><br>
+        <select id="categoria">
+        <option value="">Selecione um modelo</option>
+        </select>
+        <br><br>
+        <label for="modelos">Escolha o modelo:</label><br>
+        <select id="modelos">
+        <option value="">Selecione um modelo</option>
+        </select>
+    </div>
+</div>
+    <script src="js/frotas.js"></script>
+</body>
+</html>
